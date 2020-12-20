@@ -43,7 +43,9 @@ header .container,
   background-color: #6c757d;
   color: #fff;
 }
-
+.cs-card:hover h5{
+  color:#fff
+}
 .cs-card:hover svg {
   fill: #fff;
 }
