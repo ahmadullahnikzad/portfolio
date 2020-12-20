@@ -1,0 +1,91 @@
+header,
+.about-us,
+.services,
+.skills,
+.portfolio,
+.blog,
+.testimonial,
+.contact {
+  min-height: 90vh;
+  border-bottom: 2px solid #fff;
+}
+
+header .container,
+.about-us .container,
+.services .container,
+.skills .container,
+.portfolio .container,
+.blog .container,
+.testimonial .container,
+.contact .container {
+  min-height: 15vh;
+  margin: 100px 0;
+}
+
+.info {
+  max-width: 700px;
+  margin: auto;
+}
+
+.cs-card {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  height: 100%;
+}
+
+.cs-card:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.cs-card:hover svg {
+  fill: #fff;
+}
+
+.cs-card .card-body svg {
+  height: 80px;
+  fill: currentColor;
+  margin-bottom: 5px;
+}
+
+.progress {
+  height: 5px;
+}
+
+.p-cs-card {
+  height: 300px;
+  overflow: hidden;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.p-cs-card:hover .overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.p-cs-card .overlay {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  height: 100%;
+  width: 100%;
+  background-color: #6c757de5;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.testimonials {
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: auto;
+}
+
+.social-media svg {
+  height: 25px;
+  fill: currentColor;
+}
+/*# sourceMappingURL=style.css.map */
