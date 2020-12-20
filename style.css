@@ -24,11 +24,13 @@ header .container,
 .contact .container {
   min-height: 15vh;
   margin: 100px 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .info {
   max-width: 700px;
   margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .cs-card {
@@ -81,6 +83,7 @@ header .container,
 .testimonials {
   max-width: 700px;
   margin: auto;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .contact-form {
